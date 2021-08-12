@@ -1,0 +1,163 @@
+﻿<%@ Master Language="VB" CodeFile="admin_master_page.master.vb" Inherits="MasterPage" %>
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head runat="server">
+    <title></title>
+    <asp:ContentPlaceHolder id="head" runat="server">
+    </asp:ContentPlaceHolder>
+    <style type="text/css">
+        .style1
+        {
+            width: 100%;
+            margin-right: 0px;
+        }
+        .style2
+        {
+            width: 241px;
+            height: 51px;
+        }
+        .style3
+        {
+            width: 241px;
+            height: 633px;
+        }
+        .style4
+        {
+            height: 633px;
+            width: 1032px;
+        }
+        .style5
+        {
+            height: 51px;
+            width: 1032px;
+        }
+        .style6
+        {
+            height: 86px;
+        }
+        #form1
+        {
+            height: 843px;
+        }
+        </style>
+</head>
+<body style="width: 1287px; margin-left: 4px; height: 849px;">
+    <form id="form1" runat="server">
+    <div style="height: 976px; width: 1241px; margin-left: 46px;">
+        <table class="style1">
+            <tr>
+                <td class="style6" 
+                    
+                    
+                    
+                    
+                    style="background-color: #6699FF; font-size: 50px; font-weight: bold; font-family: 'Times New Roman', Times, serif; background-image: none; color: #99FF33;">
+                    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; WelCome To Belda Cable Operator System</td>
+            </tr>
+            <tr>
+                <td align=right style="background-color: #00FFFF">
+                    <asp:TextBox ID="TextBox1" runat="server"></asp:TextBox>
+                    <asp:LinkButton ID="LinkButton1" runat="server">Home</asp:LinkButton>
+                </td>
+            </tr>
+            <tr>
+                <td align=right style="background-color: #FFFF00">
+                    <asp:Literal ID="Literal1" runat="server"></asp:Literal>
+                </td>
+            </tr>
+        </table>
+        <table class="style1">
+            <tr>
+                <td class="style2" 
+                    
+                    style="background-color: #008080; color: #CCFF99; font-size: large; font-weight: bold;" 
+                    bgcolor="#CCFF66">
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Admin</td>
+                <td class="style5" style="background-color: #CCCCFF">
+                       
+                        <asp:Label ID="welcome" runat="server"></asp:Label>
+&nbsp;&nbsp;
+                        <asp:Label ID="status" runat="server"></asp:Label>
+                &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                        </td>
+            </tr>
+            <tr>
+                <td class="style3" style="background-color: #FFCC99" bgcolor="#CCFF66">
+                    <asp:Panel ID="Panel1" runat="server" Height="728px" BackColor="#CC99FF" 
+                        ForeColor="Blue" Width="237px" BorderColor="#FF99FF">
+                        <asp:Button ID="Button1" runat="server" Height="40px" Text="Login" 
+                            Width="235px" BackColor="#99FF99" Font-Bold="True" Font-Size="X-Large" 
+                            style="margin-left: 0px" />
+                        <br />
+                        <br />
+                        <asp:Button ID="Button2" runat="server" BackColor="#99FF99" Font-Bold="True" 
+                            Font-Size="X-Large" Height="40px" style="margin-left: 0px" 
+                            Text="create new agent" Width="234px" />
+                        <br />
+                        <br />
+                        <asp:Button ID="Button3" runat="server" BackColor="#99FF99" Font-Bold="True" 
+                            Font-Size="X-Large" Height="39px" style="margin-left: 0px" Text="Agent Info" 
+                            Width="233px" />
+                        <br />
+                        &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                        <asp:Button ID="Button4" runat="server" BackColor="#99FF99" Font-Bold="True" 
+                            Font-Size="X-Large" Height="39px" style="margin-left: 0px" Text="Add Area" 
+                            Width="235px" />
+                        <br />
+                        &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<asp:Button ID="Button5" 
+                            runat="server" BackColor="#99FF99" Font-Bold="True" Font-Size="X-Large" 
+                            Height="40px" style="margin-left: 0px" Text="Customer Details" Width="235px" />
+                        <br />
+                        &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<br />
+                        <asp:Button ID="Button7" runat="server" BackColor="#99FF99" Font-Bold="True" 
+                            Font-Size="X-Large" Height="39px" style="margin-left: 0px" Text="Add Channel" 
+                            Width="233px" />
+                        <br />
+                        <br />
+                        <asp:Button ID="Button8" runat="server" BackColor="#99FF99" Font-Bold="True" 
+                            Font-Size="X-Large" Height="40px" style="margin-left: 0px" Text="Offer " 
+                            Width="235px" />
+                        <br />
+                        <br />
+                        <asp:Button ID="Button9" runat="server" BackColor="#99FF99" Font-Bold="True" 
+                            Font-Size="X-Large" Height="40px" style="margin-left: 0px" 
+                            Text="Bill Collection" Width="234px" />
+                        <br />
+                        &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<br />
+                        <asp:Button ID="Button10" runat="server" BackColor="#99FF99" Font-Bold="True" 
+                            Font-Size="X-Large" Height="39px" style="margin-left: 0px" 
+                            Text="Create Package" Width="234px" />
+                        <br />
+                        &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<br />
+                        <asp:Button ID="Button11" runat="server" BackColor="#99FF99" Font-Bold="True" 
+                            Font-Size="X-Large" Height="38px" style="margin-left: 0px" Text="Bill Details" 
+                            Width="234px" />
+                        <br />
+                        <br />
+                        <asp:Button ID="Button12" runat="server" BackColor="#99FF99" Font-Bold="True" 
+                            Font-Size="X-Large" Height="39px" style="margin-left: 0px" 
+                            Text="Complain Inbox" Width="234px" />
+                        <br />
+&nbsp;
+                        <br />
+                        &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<asp:Button ID="Button13" runat="server" 
+                            BackColor="#99FF99" Font-Bold="True" Font-Size="X-Large" Height="39px" 
+                            style="margin-left: 0px" Text="Print invoice" Width="234px" />
+                    </asp:Panel>
+                </td>
+                <td class="style4">
+                    <asp:ContentPlaceHolder ID="ContentPlaceHolder1" runat="server" 
+                        ClientIDMode="AutoID" ViewStateMode="Enabled">
+                       
+                    </asp:ContentPlaceHolder>
+               
+                </td>
+            </tr>
+            </table>
+        &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+    </div>
+    </form>
+</body>
+</html>

@@ -1,0 +1,156 @@
+﻿<%@ Master Language="VB" CodeFile="user_home_master.master.vb" Inherits="user_home_master" %>
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head runat="server">
+    <title>Belda Cable Operator</title>
+    <asp:ContentPlaceHolder id="head" runat="server">
+    </asp:ContentPlaceHolder>
+    <style type="text/css">
+        .style1
+        {
+            width: 100%;
+            height: 92px;
+        }
+        .style2
+        {
+            height: 91px;
+        }
+        .style3
+        {
+            width: 100%;
+            height: 802px;
+        }
+        .style4
+        {
+            height: 682px;
+        }
+        .style5
+        {
+            height: 682px;
+            width: 230px;
+        }
+        #form1
+        {
+            width: 1205px;
+            margin-left: 65px;
+            height: 925px;
+        }
+        .style6
+        {
+            height: 15px;
+        }
+        .style7
+        {
+            width: 1199px;
+            height: 114px;
+        }
+        .style8
+        {
+            width: 1203px;
+            height: 96px;
+        }
+    </style>
+</head>
+<body style="width: 1274px; margin-left: 7px; height: 927px;">
+    <form id="form1" runat="server">
+    <div style="height: 927px; width: 1209px;">
+        <table class="style1">
+            <tr>
+                <td class="style2" 
+                    
+                    
+                    style="background-color: #99CCFF; font-size: 45px; font-weight: bold; color: #009933;">
+                    <img alt="" class="style8" src="pic2/Capture3.png" /><img alt="" class="style7" src="pic2/Capture99.png" /></td>
+            </tr>
+            <tr>
+                <td align="right" style="background-color: #FFFF00">
+                    <asp:Literal ID="Literal1" runat="server"></asp:Literal>
+                    <asp:LinkButton ID="LinkButton1" runat="server">Home</asp:LinkButton>
+&nbsp;&nbsp;
+                    
+                </td>
+            </tr>
+        </table>
+        <table class="style3">
+            <tr>
+                <td colspan="2" 
+                    
+                    style="background-color: #00FFFF; color: #FF3399; font-weight: bold; font-size: larger;" 
+                    class="style6">
+                    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; &nbsp;&nbsp; Customer&nbsp;<asp:TextBox 
+                        ID="TextBox1" runat="server" Visible="False"></asp:TextBox>
+                </td>
+            </tr>
+            <tr>
+                <td class="style5" style="background-color: #009933">
+                    <asp:Panel ID="Panel1" runat="server" Height="691px" Width="270px">
+                        &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                        <asp:Button ID="Button1" runat="server" BackColor="#FFCCCC" Font-Bold="True" 
+                            Font-Size="X-Large" Height="40px" style="margin-left: 0px" Text="Login" 
+                            Width="270px" />
+                        <br />
+                        &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                        <br />
+                        <asp:Button ID="Button2" runat="server" BackColor="#FFCCFF" Font-Bold="True" 
+                            Font-Size="X-Large" Height="40px" style="margin-left: 0px" 
+                            Text="Change Password" Width="270px" />
+                        <br />
+                        <br />
+                        <asp:Button ID="Button3" runat="server" BackColor="#FFCCFF" Font-Bold="True" 
+                            Font-Size="X-Large" Height="40px" style="margin-left: 0px" 
+                            Text="Customer Complain" Width="270px" />
+                        <br />
+                        &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                        <br />
+                        <asp:Button ID="Button4" runat="server" BackColor="#FFCCFF" Font-Bold="True" 
+                            Font-Size="X-Large" Height="40px" style="margin-left: 0px" Text="Bill Payment" 
+                            Width="270px" />
+                        <br />
+                        &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                        <br />
+                        <asp:Button ID="Button5" runat="server" BackColor="#FFCCFF" Font-Bold="True" 
+                            Font-Size="X-Large" Height="40px" style="margin-left: 0px" 
+                            Text="Account Details" Width="270px" />
+                        <br />
+                        &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                        <br />
+                        <asp:Button ID="Button6" runat="server" BackColor="#FFCCFF" Font-Bold="True" 
+                            Font-Size="X-Large" Height="40px" style="margin-left: 0px" 
+                            Text="Search Channel" Width="270px" />
+                        <br />
+                        &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                        <asp:Button ID="Button7" runat="server" BackColor="#FFCCFF" Font-Bold="True" 
+                            Font-Size="X-Large" Height="40px" style="margin-left: 0px" 
+                            Text="About Operator" Width="270px" />
+                        <br />
+                        &nbsp;<asp:Button ID="Button8" runat="server" BackColor="#FFCCFF" Font-Bold="True" 
+                            Font-Size="X-Large" Height="40px" style="margin-left: 0px" 
+                            Text="Connection Facilities" Width="270px" />
+                        <br />
+                        &nbsp;<asp:Button ID="Button9" runat="server" BackColor="#FFCCFF" Font-Bold="True" 
+                            Font-Size="X-Large" Height="40px" style="margin-left: 0px" 
+                            Text="Apply Connection " Width="270px" />
+                        <br />
+                        <br />
+                        <asp:Button ID="Button10" runat="server" BackColor="#FFCCFF" Font-Bold="True" 
+                            Font-Size="X-Large" Height="40px" style="margin-left: 0px" 
+                            Text="See Previous Payment" Width="270px" />
+                        <br />
+                        &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;&nbsp;
+                        <asp:Button ID="Button11" runat="server" BackColor="#FFCCFF" Font-Bold="True" 
+                            Font-Size="X-Large" Height="40px" style="margin-left: 0px" Text="Print Invoice" 
+                            Width="270px" />
+                    </asp:Panel>
+                </td>
+                <td class="style4">
+                    <asp:ContentPlaceHolder ID="ContentPlaceHolder1" runat="server">
+                    </asp:ContentPlaceHolder>
+                </td>
+            </tr>
+        </table>
+    </div>
+    </form>
+</body>
+</html>
